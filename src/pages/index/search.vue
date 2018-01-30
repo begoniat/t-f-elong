@@ -7,13 +7,17 @@
       <p class="place-near-icon icon">&#xe604;</p>
       <p class="place-near">附近</p>
     </div>
-
+    <index-date></index-date>
   </div>
 </template>
 
 <script>
+  import IndexDate from './date'
   export default {
-    name: "index-search"
+    name: "index-search",
+    components: {
+      IndexDate
+    }
   }
   var rempx = document.documentElement.clientWidth / 7.5;
   document.getElementsByTagName('html')[0].style.fontSize = rempx + "px";

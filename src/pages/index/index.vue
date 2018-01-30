@@ -2,14 +2,14 @@
   <div>
     <index-swiper :list="indexList"></index-swiper>
     <index-search></index-search>
-    <index-date></index-date>
+    <!-- <index-date></index-date> -->
   </div>
 </template>
 <script>
   import IndexSwiper from './swipe'
   import IndexHeader from './header'
   import IndexSearch from './search'
-  import IndexDate from './date'
+  // import IndexDate from './date'
   import axios from 'axios'
 
   export default {
@@ -18,7 +18,7 @@
       IndexSwiper,
       IndexHeader,
       IndexSearch,
-      IndexDate
+      // IndexDate
     },
     data () {
       return {
