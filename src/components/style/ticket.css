@@ -1,0 +1,280 @@
+h1, h2 {
+  font-weight: normal;
+}
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+li {
+  display: inline-block;
+  margin: 0 10px;
+}
+a {
+  color: #42b983;
+}
+
+.fly-ticket header{
+	display:flex;
+	/*height:4rem;
+	position:absolute;
+	top:0;*/
+}
+.fly-ticket header img{
+	width:7.5rem;
+	height:4rem;
+	margin-top:-60px;
+}
+
+
+.fly-ticket section .span1,.fly-ticket section .span2{
+	--font-size:20px;
+	--font-size:0.20rem;
+	font-size:0.40rem;
+	color:#fff;
+	--display:flex;
+	float:left;
+	--width:1.6406rem;
+	--height:0.464rem;
+	width:3.2812rem;
+	height:0.928rem;
+	background:#333;
+	text-align: center;
+	--line-height:0.464rem;
+	--border-radius:0.05rem;
+	line-height:0.928rem;
+	border-radius:0.1rem;
+}
+.fly-ticket section #span1{
+	--position:absolute;
+	margin-top: 66px;
+  margin-left: 10px;
+}
+.fly-ticket section #span2{
+	--position:absolute;
+	margin-left:3px;
+}
+.fly-ticket section ul li.normal{/*选项卡效果*/
+	color:#fff;
+	background:#333;
+	font-size:0.40rem;
+	width:3.2812rem;
+	height:0.928rem;
+	text-align: center;
+	line-height:0.928rem;
+	border-radius:0.1rem;
+	
+}
+.fly-ticket section ul li.click{/*选项卡效果*/
+	color:#333;
+	background:#fff;
+	font-size:0.40rem;
+	width:3.2812rem;
+	height:0.928rem;
+	text-align: center;
+	line-height:0.928rem;
+	
+}
+
+.fly-ticket section .city{
+	display:flex;
+	--height:0.53rem;
+	height:1.06rem;
+}
+.fly-ticket section .city .city1{
+	display:flex;
+	border-bottom: 1px solid #e0e0e0;
+}
+.fly-ticket section .city .city2{
+	display:flex;
+	border-bottom: 1px solid #e0e0e0;
+}
+.fly-ticket section .city .city1 .city1_span{
+	margin-left:0.32rem;
+	--margin-right: 60px;
+	margin-right: 1.2rem;
+}
+.fly-ticket section .city .city1 .city1_b{
+	--margin-right:22px;
+	margin-right:0.44rem;
+}
+.fly-ticket section .city .city2 .city2_b{
+	--margin-left:10px;
+	margin-left:0.2rem;
+}
+.fly-ticket section .city .city2 .city2_span{
+	--margin-left:70px;
+	margin-left:1.4rem;
+}
+.fly-ticket section .city span{
+	font-size:0.40rem;
+	line-height: 1.06rem;
+}
+.fly-ticket section .city b{
+	font-weight:normal;
+	font-size:0.32rem;
+	line-height: 1.06rem;
+	--vertical-align: middle;
+}
+.fly-ticket section .city img{
+	--width:0.3281rem;
+	--height:0.3281rem;
+	--vertical-align: middle;
+	width:0.6562rem;
+	height:0.6562rem;
+}
+
+.fly-ticket section .date{
+	display:flex;
+	--height:0.539rem;
+	--width:1.3828rem;
+	height:1.078rem;
+	width:2.7656rem;
+	border-bottom: 1px solid #e0e0e0;
+	--margin-left:16px;
+	margin-left:0.32rem;
+}
+.fly-ticket section .date span{
+	font-size:0.32rem;
+	line-height:1.078rem;
+}
+.fly-ticket section .date b{
+	font-weight:normal;
+	font-size:0.32rem;
+	line-height:1.078rem;
+}
+#li2 .date_next{
+	display:flex;
+	justify-content: space-around;
+}
+#li2 .date_next .date3{
+	height:1.078rem;
+	width:2.7656rem;
+	border-bottom: 1px solid #e0e0e0;
+}
+#li2 .date_next .date3 span{
+	font-size:0.32rem;
+	line-height:1.078rem;
+}
+#li2 .date_next .date3 b{
+	font-weight:normal;
+	font-size:0.32rem;
+	line-height:1.078rem;
+}
+#li2 .date_next .days{
+	font-size:0.32rem;
+  margin-top: 30px;
+}
+#li2 .date_next .date4{
+	height:1.078rem;
+	width:2.7656rem;
+	border-bottom: 1px solid #e0e0e0;
+}
+#li2 .date_next .date4 b{
+	font-weight:normal;
+	font-size:0.32rem;
+	line-height:1.078rem;
+}
+#li2 .date_next .date4 span{
+	font-size:0.32rem;
+	line-height:1.078rem;
+}
+
+.fly-ticket section .jicang{
+	display:flex;
+	height:1.078rem;
+	justify-content: space-between;
+	align-items:center;
+	border-bottom:1px solid #e0e0e0;
+}
+.fly-ticket section .jicang span{
+	font-size:0.32rem;
+	line-height: 1.078rem;
+	--margin-left: 15px;
+	margin-left: 0.3rem;
+}
+/*.fly-ticket section .jicang .yuan_big{
+	width:1.2656rem;
+	height:0.6328rem;
+  border: 1px solid #e0e0e0;
+  border-radius: 1.4rem;
+	--align-self:center;
+	position: absolute;
+  --right: 22px;
+  right: 0.44rem;
+}
+.fly-ticket section .jicang .yuan_big .yuan_small{
+	width:0.6328rem;
+	height:0.6328rem;
+  border: 1px solid #e0e0e0;
+  border-radius: 50%;
+}*/
+/*.fly-ticket section .jicang .yuan_big .yuan_small2{
+	width:0.6328rem;
+	height:0.6328rem;
+  border: 1px solid #e0e0e0;
+  border-radius: 50%;
+  position:absolute;
+  top: 0px;
+  left: 31px;
+  display:none;
+}*/
+/*.fly-ticket section .jicang mt-switch{
+	
+}*/
+
+.fly-ticket section .search{
+	width:6.5626rem;
+	height:0.9376rem;
+	background: #3fadf5;
+	border-radius: 2.4rem;
+	box-shadow: 1px 5px 10px #c3dbea;
+	display:flex;
+	justify-content: center;
+	align-items: center;
+	--margin-top:13px;
+	--margin-left:22px;
+	margin-top:0.26rem;
+	margin-left:0.44rem;
+}
+.fly-ticket section .search img{
+	width:0.32rem;
+	height:0.32rem;
+	
+}
+.fly-ticket section .search a{
+	font-size:0.32rem;
+	color:#fff;
+	--text-align: center;
+	line-height: 0.9376rem;
+	margin-left:10px;
+}
+ol li.show {/*选项卡效果*/
+		display: block;
+}
+ol li.hide {/*选项卡效果*/
+		display: none;
+}
+
+footer{
+	display:flex;
+	width:13.34rem;
+	height:2.16rem;
+	--justify-content: space-around;
+	--margin-top: 135px;
+	position:absolute;
+	bottom:0;
+}
+footer div{
+	display:flex;
+	flex-direction:column;
+	justify-content: space-around;
+	margin-left:23px;
+}
+footer a img{
+	width:1rem;
+	height:1rem;
+}
+footer a p{
+	font-size:0.32rem;
+	color:#666;
+}

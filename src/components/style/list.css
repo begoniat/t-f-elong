@@ -1,0 +1,114 @@
+h1, h2 {
+  font-weight: normal;
+}
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+li {
+  display: inline-block;
+  margin: 0 10px;
+}
+a {
+  color: #42b983;
+}
+
+.flight-list header{
+	height:1.8rem;
+	position: absolute;
+	--top:0;
+	width:100%;
+}
+.flight-list header .header1{
+	display:flex;
+	justify-content: space-around;
+	align-items: center;
+	height:0.88rem;
+	border-bottom: 1px solid #e0e0e0;
+	--margin-top: -56px;
+	margin-top: -1.12rem;
+	top:0;
+	
+}
+.flight-list header .header1 i{
+	font-size:0.4rem;
+	color: #3FADF5;
+}
+.flight-list header .header1 span{
+	--font-size:20px;
+	font-size:0.4rem;
+}
+.flight-list header .header2{
+	display:flex;
+	justify-content: space-around;
+	align-items: center;
+	height:0.88rem;
+	border-bottom: 1px solid #e0e0e0;
+	line-height: 0.88rem;
+}
+.flight-list header .header2 .icon1{
+	    --margin-left: 6px;
+	margin-left: 0.12rem;
+}
+.flight-list header .header2 span{
+	font-size:0.32rem;
+}
+.flight-list header .header2 .date{
+	color:#f55;
+}
+
+.flight-list section ul li{
+	display:flex;
+	justify-content: space-between;
+	height:1.94rem;
+	border-bottom: 1px solid #e0e0e0;
+}
+.flight-list section ul li .box_left .box_left1{
+	margin-top: -18px;
+  margin-left: -70px;
+}
+.flight-list section ul li .box_left .box_left2{
+	margin-top: -32px;
+  margin-left: -70px;
+}
+.flight-list section ul li .box_left .box_left3{
+	margin-top: -32px;
+  margin-left: 2px;
+}
+.flight-list section ul li .box_left b{
+	font-weight:normal;
+	font-size:0.32rem;
+}
+.flight-list section ul li .box_left span{
+	font-size:0.32rem;
+}
+.flight-list section ul li .box_left .desc{
+	font-size:0.24rem;
+}
+.flight-list section ul li .box_right{
+	margin-top:-20px;
+}
+.flight-list section ul li .box_right .pri{
+	font-size:0.4rem;
+	color:#f55;
+	
+}
+
+.flight-list footer{
+	position:absolute;
+	display:flex;
+	justify-content: space-around;
+	height:1.024rem;
+	bottom:0;
+	width:100%;
+}
+.flight-list footer img{
+	--width:20px;
+	--height:20px;
+	width:0.4rem;
+	height:0.4rem;
+}
+.flight-list footer p{
+	font-size:0.24rem;
+	color: #929292;
+}

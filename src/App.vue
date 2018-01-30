@@ -1,23 +1,22 @@
 <template>
   <div id="app">
-    <img src="./assets/logo.png">
+    <!--<img src="./assets/logo.png">-->
+   	<!--<router-link to="/ticket"></router-link>-->
+   	<!--<mt-button type="danger">danger</mt-button>-->
+   	<router-link to="/list"></router-link>
     <router-view/>
   </div>
 </template>
 
 <script>
+var rempx = document.documentElement.clientWidth / 7.5;
+document.getElementsByTagName('html')[0].style.fontSize = rempx + "px";
 export default {
   name: 'App'
 }
 </script>
 
 <style>
-#app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
+@import './assets/style/common.css';
+@import './assets/iconfont/iconfont.css';
 </style>
