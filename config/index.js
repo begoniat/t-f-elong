@@ -10,6 +10,7 @@ module.exports = {
     // Paths
     assetsSubDirectory: 'static',
     assetsPublicPath: '/',
+<<<<<<< HEAD
     proxyTable: {//原地址:http://localhost:3000/api/regist
     	'/api': {//这里是需要匹配的路径，如果匹配上了，则代理到目标服务器上
             target: 'http://localhost:3000', //目标服务器
@@ -38,6 +39,16 @@ module.exports = {
 
     },*/
 
+=======
+    proxyTable: {
+        '/': {
+            target: 'http://localhost:8080',
+            pathRewrite: {
+                'api': '/static'
+            }
+        }
+    },
+>>>>>>> dec24f161a4a8899aefc93f6fe9878877247d50b
 
     // Various Dev Server settings
     host: 'localhost', // can be overwritten by process.env.HOST
