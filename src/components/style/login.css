@@ -1,0 +1,117 @@
+h1, h2 {
+  font-weight: normal;
+}
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+li {
+  display: inline-block;
+  margin: 0 10px;
+}
+a {
+  color: #42b983;
+}
+
+.login_box header{
+	display: flex;
+	--height:44px;
+	height:0.88rem;
+	position:absolute;
+	top:0;
+	margin-top: 9px;
+}
+.login_box header i{
+	font-size: 0.4rem;
+	margin-left: 20px;
+    margin-right: 270px;
+}
+.login_box header a{
+	--font-size:20px;
+	font-size: 0.4rem;
+	color: #49f;
+}
+
+.login_box section h3{
+	color: #49f;
+	--font-size: 30px;
+	font-size:0.6rem;
+    font-weight: normal;
+}
+.login_box section span{
+	--font-size:16px;
+	font-size:0.32rem;
+	color:#666;
+}
+.login_box section .div1{
+	height:1.22rem;
+	width:5.904rem;
+	border-bottom:1px solid #e0e0e0;
+	--display: flex;
+	--line-height: 40px;
+	line-height: 0.8rem;
+	--margin-left: 40px;
+	margin-left: 0.8rem;
+}
+.login_box section .div1 b{
+	color:#333;
+	font-size:0.32rem;
+	font-weight:normal;
+	    --margin-left: -16px;
+    --margin-right: 40px;
+        --margin-left: -0.32rem;
+    --margin-right: 0.8rem;
+}
+.login_box section .div1 input{
+	border: none;
+	outline:medium;/*input标签在鼠标点击时，会有黄色的边框,去掉黄色边框*/
+	font-size:0.32rem;
+}
+.login_box section .div2{
+	height:1.2rem;
+	width:5.904rem;
+	border-bottom:1px solid #e0e0e0;
+	margin-left: 42px;
+	    display: flex;
+	align-items: center;
+}
+.login_box section .div2 input{
+	border: none;
+	outline:medium;/*input标签在鼠标点击时，会有黄色的边框,去掉黄色边框*/
+	font-size:0.32rem;
+}
+.login_box section .div3{
+	height:1.2rem;
+	width:5.904rem;
+	border-bottom:1px solid #e0e0e0;
+	margin-left: 42px;
+	    display: flex;
+	align-items: center;
+}
+.login_box section .div3 b{
+	--font-size:12px;
+	font-size:0.24rem;
+	    --width: 76px;
+    --height: 28px;
+    width:1.52rem;
+    height:0.56rem;
+    border: 1px solid #666;
+	--line-height: 28px;
+    line-height: 0.56rem;
+    margin-left: 88px;
+}
+.login_box section .div4{
+	width:5.904rem;
+	height:0.8rem;
+	background: rgba(68,153,255,.5);
+	display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 44px;
+    margin-top: 34px;
+}
+.login_box section .div4 a{
+	--font-size: 20px;
+	font-size:0.4rem;
+    color: white;
+}

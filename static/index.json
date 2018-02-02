@@ -1,0 +1,19 @@
+{
+  "ret": true,
+  "data": {
+    "name": "swiper1",
+     "slider": [{
+      "id": "001",
+      "link": "",
+      "imgUrl": "//m.elongstatic.com/promotions/wireless/uploadImages/images151494803662145.jpg"
+    }, {
+      "id": "002",
+      "link": "",
+      "imgUrl": "//m.elongstatic.com/promotions/wireless/uploadImages/images151505111935501.jpg"
+    }, {
+      "id": "003",
+      "link": "",
+      "imgUrl": "//m.elongstatic.com/promotions/wireless/uploadImages/images151186038730563.jpg"
+    } ]
+  }
+}

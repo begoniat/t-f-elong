@@ -1,7 +1,7 @@
 //import { Spinner } from 'mint-ui';
 
 export default {
-  name: 'HelloWorld',
+  name: 'List',
   data () {
     return {
       list: [

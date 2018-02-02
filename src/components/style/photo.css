@@ -1,0 +1,55 @@
+h1, h2 {
+  font-weight: normal;
+}
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+li {
+  display: inline-block;
+  margin: 0 10px;
+}
+a {
+  color: #42b983;
+}
+
+.photo_explanation header{
+	display: flex;
+	top: 0;
+    position: absolute;
+}
+.photo_explanation header img{
+	width:7.5rem;
+	height:2.52rem;
+}
+.photo_explanation section{
+	display: flex;
+	    --margin-top: 44px;
+    --margin-left: 20px;
+    margin-top: 0.88rem;
+    margin-left: 0.4rem;
+}
+.photo_explanation section b{
+	--font-size: 18px;
+	font-size: 0.36rem;
+}
+/*.photo_explanation section div{
+	display: flex;
+}
+.photo_explanation section div img{
+	width:2.6rem;
+	height:1.9rem;
+}*/
+.photo_explanation section ul{
+	margin-top:122px;
+	margin-left: -27px;
+}
+.photo_explanation section ul li{
+	float:left;
+	    margin-right: -3px;
+}
+.photo_explanation section ul li img{
+	width:3rem;
+	height:1.94rem;
+	--width:150px
+}

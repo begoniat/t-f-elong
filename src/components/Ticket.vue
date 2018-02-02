@@ -84,28 +84,36 @@
   	</section>
   	<footer>
   		<div class="xuanzuo">
-  			<a href="#">
-  				<img src="../assets/onlinechosesite.png">
-  				<p>在线选座</p>
-  			</a>
+  			<router-link to="/login">
+	  			<a href="#">
+	  				<img src="../assets/onlinechosesite.png">
+	  				<p>在线选座</p>
+	  			</a>
+	  		</router-link>
   		</div>
   		<div>
-  			<a href="#">
-  				<img src="../assets/flightDynamics.png">
-  				<p>航班动态</p>
-  			</a>
+  			<router-link to="/login">
+	  			<a href="#">
+	  				<img src="../assets/flightDynamics.png">
+	  				<p>航班动态</p>
+	  			</a>
+	  		</router-link>
   		</div>
   		<div>
-  			<a href="#">
-  				<img src="../assets/lowflyprice.png">
-  				<p>特价机票</p>
-  			</a>
+  			<router-link to="/photo">
+	  			<a href="#">
+	  				<img src="../assets/lowflyprice.png">
+	  				<p>特价机票</p>
+	  			</a>
+	  		</router-link>
   		</div>
   		<div>
-  			<a href="#">
-  				<img src="../assets/myorder.png">
-  				<p>我的订单</p>
-  			</a>
+  			<router-link to="/login">
+	  			<a href="#">
+	  				<img src="../assets/myorder.png">
+	  				<p>我的订单</p>
+	  			</a>
+	  		</router-link>
   		</div>
   	</footer>
   </div>
