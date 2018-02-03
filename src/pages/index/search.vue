@@ -1,22 +1,31 @@
 <template>
-  <div id="search" class="iconfont">
-    <div class="place">
-      <p class="place-icon icon">&#xe612;</p>
-      <p class="place-add">北京市</p>
-      <p class="place-tra icon">&#xe602;</p>
-      <p class="place-near-icon icon">&#xe604;</p>
-      <p class="place-near">附近</p>
+  <div>
+    <div id="search" class="iconfont">
+      <div class="place">
+        <p class="place-icon icon">&#xe612;</p>
+        <p class="place-add">北京市</p>
+        <p class="place-tra icon">&#xe602;</p>
+        <p class="place-near-icon icon">&#xe604;</p>
+        <p class="place-near">附近</p>
+      </div>
+      <index-date></index-date>
+      <index-area></index-area>
+      <index-btn></index-btn>
     </div>
-    <index-date></index-date>
+    <div class="border"></div>
   </div>
 </template>
 
 <script>
   import IndexDate from './date'
+  import IndexArea from './area'
+  import IndexBtn from './btn'
   export default {
     name: "index-search",
     components: {
-      IndexDate
+      IndexDate,
+      IndexArea,
+      IndexBtn
     }
   }
   var rempx = document.documentElement.clientWidth / 7.5;
@@ -24,6 +33,11 @@
 </script>
 
 <style scoped lang="stylus">
+  .border
+    border-top: 1px solid #ccc
+    border-bottom: 1px solid #ccc
+    height: 12px
+    background: #f2f2f2
   #search
     height: 5.9rem
     overflow: hidden

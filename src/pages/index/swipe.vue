@@ -21,7 +21,9 @@
         swiperOption: {
           loop: true,
           pagination: ".swiper-pagination",
-          autoplay: 2500
+          autoplay: 2500,
+          autoplayDisableOnInteraction: false,//autoplay禁用交互
+          initialSlide:1
         }
       }
     }
