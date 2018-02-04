@@ -8,7 +8,9 @@
         </div>
          <div class="tool-list-order">
           <p class="icon">&#xe61f;</p>
-          <p class="word">订单</p>
+          <router-link to="/ticket">
+            <p class="word">订单</p>
+          </router-link>
         </div>
         <div class="tool-list-phone">
           <p class="icon">&#xe613;</p>

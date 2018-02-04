@@ -3,7 +3,7 @@
     <div id="area" class="iconfont">
       <p class="icon">&#xe6cf;</p>
       <div class="area-pos">酒店名称/位置不限</div>
-      <p class="icon-tra">&#xe602;</p>
+      <p class="icon-tra">&#xe602;</p> 
     </div>
     <div id="price" class="iconfont">
       <p class="icon">&#xe641;</p>

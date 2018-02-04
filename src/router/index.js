@@ -27,6 +27,11 @@ Vue.use(Router)
 export default new Router({
 	mode: "hash",
   routes: [
+   {
+      path: '/index',
+      name: 'Index',
+      component: Index
+    },
     {
       path: '/ticket',
       name: 'Ticket',

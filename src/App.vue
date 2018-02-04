@@ -5,10 +5,12 @@
 </template>
 
 <script>
-var rempx = document.documentElement.clientWidth / 7.5;
-document.getElementsByTagName('html')[0].style.fontSize = rempx + "px";
 export default {
-  name: 'App'
+  name: 'App',
+  mounted(){
+    var rempx = document.documentElement.clientWidth / 7.5;
+    document.getElementsByTagName('html')[0].style.fontSize = rempx + "px";
+  }
 }
 </script>
 
