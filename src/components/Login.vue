@@ -2,7 +2,7 @@
   <div class="login_box">
     <header>
     	<router-link to="/ticket">
-    		<i class="icon iconfont">&#xe697;</i>
+    		<i class="icon iconfont">&#xe622;</i>
     	</router-link>
     	<router-link to="/regist">
     		<a href="#">注册</a>

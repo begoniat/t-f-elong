@@ -31,7 +31,6 @@
 </script>
 
 <style lang="stylus" scoped>
-  @import '../../assets/asset/common/varibles.styl'
   .slide-container
     position:relative
     overflow: hidden

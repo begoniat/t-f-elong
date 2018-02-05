@@ -17,7 +17,7 @@
       </div>
     </div>
     <div class="onenight">1晚</div>
-    <p class="icon-tra">&#xe602;</p>
+    <p class="icon-tra">&#xe62d;</p>
   </div>
 </template>
 <script>

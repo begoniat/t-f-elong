@@ -2,7 +2,7 @@
   <div class="regist_box">
   	<header>
   		<router-link to="/login">
-    		<i class="icon iconfont">&#xe697;</i>
+    		<i class="icon iconfont">&#xe622;</i>
     	</router-link>
   	</header>
     <section>

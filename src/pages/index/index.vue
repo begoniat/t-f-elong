@@ -41,6 +41,7 @@
         .then((res) => {
           this.indexList = res.data.data.slider
           this.iconList = res.data.list.icon
+          console.log(res)
           this.indexPlace = res.data.city.cityImg
         })
         .catch((res) => {

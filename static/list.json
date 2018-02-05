@@ -1,0 +1,271 @@
+{
+  "ret": true,
+  "data": {
+    "hotcity":[{
+      "id": "001",
+      "city": "北京"
+    },
+    {
+      "id": "002",
+      "city": "西安"
+    },
+    {
+      "id": "003",
+      "city": "三亚"
+    },
+    {
+      "id": "004",
+      "city": "丽江"
+    },
+    {
+      "id": "005",
+      "city": "桂林"
+    },
+    {
+      "id": "006",
+      "city": "成都"
+    },
+    {
+      "id": "007",
+      "city": "上海"
+    },
+    {
+      "id": "008",
+      "city": "西双版纳"
+    },
+    {
+      "id": "009",
+      "city": "厦门"
+    },
+    {
+      "id": "010",
+      "city": "长沙"
+    },
+    {
+      "id": "011",
+      "city": "苏州"
+    },
+    {
+      "id": "012",
+      "city": "大理"
+    },
+    {
+      "id": "013",
+      "city": "广州"
+    },
+    {
+      "id": "014",
+      "city": "杭州"
+    },
+    {
+      "id": "015",
+      "city": "昆明"
+    },
+    {
+      "id": "016",
+      "city": "重庆"
+    },
+    {
+      "id": "017",
+      "city": "深圳"
+    }],
+    "list": {
+      "A": [{
+        "name": "阿坝藏族羌族自治州",
+        "spell": " abazangzuqiangzuzizhizhou",
+        "id": 1
+      }, {
+        "name": "阿克苏地区",
+        "spell": "akesudiqu",
+        "id": 2
+      }, {
+        "name": " 阿拉尔",
+        "spell": " alaer",
+        "id": 3
+      }, {
+        "name": " 阿里",
+        "spell": "ali",
+        "id": 4
+      }, {
+        "name": "安康",
+        "spell": "ankang",
+        "id": 5
+      }, {
+        "name": "安庆",
+        "spell": "anqing",
+        "id": 6
+      }, {
+        "name": "安阳",
+        "spell": "anyang",
+        "id": 7
+      }, {
+        "name": "安顺",
+        "spell": "anshun",
+        "id": 8
+      }, {
+        "name": "澳门",
+        "spell": "aomen",
+        "id": 9
+      }],
+      "B": [{
+        "name": "巴中",
+        "spell": "bazhong",
+        "id": 10
+      }, {
+        "name": "白银",
+        "spell": "baiyin",
+        "id": 11
+      }, {
+        "name": "白山",
+        "spell": "baishan",
+        "id": 12
+      }, {
+        "name": "百色",
+        "spell": "baise",
+        "id": 13
+      }, {
+        "name": "白城",
+        "spell": "baicheng",
+        "id": 14
+      }],
+      "C":[{
+        "name": "沧州",
+        "spell": "cangzhou",
+        "id": 15
+      }, {
+        "name": "昌平",
+        "spell": "changping",
+        "id": 16
+      }, {
+        "name": "成都",
+        "spell": "chengdou",
+        "id": 17
+      }, {
+        "name": "朝阳",
+        "spell": "chaoyang",
+        "id": 18
+      }],
+      "D":[{
+        "name": "大理",
+        "spell": "dali",
+        "id": 19
+      }, {
+        "name": "大连",
+        "spell": "dalian",
+        "id": 20
+      }, {
+        "name": "大庆",
+        "spell": "daqing",
+        "id": 21
+      }, {
+        "name": "大同",
+        "spell": "datong",
+        "id": 22
+      }, {
+        "name": "大兴安岭",
+        "spell": "daxinganling",
+        "id": 23
+      }],
+      "E": [{
+        "name": "鄂尔多斯",
+        "spell": "eerduosi",
+        "id": 24
+      }, {
+        "name": "鄂州",
+        "spell": "ezhou",
+        "id": 25
+      }, {
+        "name": "恩施",
+        "spell": "enshi",
+        "id": 26
+      }, {
+        "name": "厄多斯",
+        "spell": "eduosi",
+        "id": 27
+      }, {
+        "name": "鄂州市",
+        "spell": "ezhoushi",
+        "id": 28
+      }]
+    },
+      "search": [{
+        "id": "1",
+        "letter": "A"
+      }, {
+        "id": "2",
+        "letter": "B"
+      }, {
+        "id": "3",
+        "letter": "C"
+      }, {
+        "id": "4",
+        "letter": "D"
+      }, {
+        "id": "5",
+        "letter": "E"
+      }, {
+        "id": "6",
+        "letter": "F"
+      }, {
+        "id": "7",
+        "letter": "G"
+      }, {
+        "id": "8",
+        "letter": "H"
+      }, {
+        "id": "9",
+        "letter": "I"
+      }, {
+        "id": "10",
+        "letter": "J"
+      }, {
+        "id": "11",
+        "letter": "K"
+      }, {
+        "id": "12",
+        "letter": "L"
+      }, {
+        "id": "13",
+        "letter": "M"
+      }, {
+        "id": "14",
+        "letter": "N"
+      }, {
+        "id": "15",
+        "letter": "O"
+      }, {
+        "id": "16",
+        "letter": "P"
+      }, {
+        "id": "17",
+        "letter": "Q"
+      }, {
+        "id": "18",
+        "letter": "R"
+      }, {
+        "id": "19",
+        "letter": "S"
+      }, {
+        "id": "20",
+        "letter": "T"
+      }, {
+        "id": "21",
+        "letter": "U"
+      }, {
+        "id": "22",
+        "letter": "V"
+      }, {
+        "id": "23",
+        "letter": "W"
+      }, {
+        "id": "24",
+        "letter": "X"
+      }, {
+        "id": "25",
+        "letter": "Y"
+      }, {
+        "id": "26",
+        "letter": "Z"
+      }]
+  }
+}

@@ -6,12 +6,10 @@
           <p class="icon">&#xe6e6;</p>
           <p class="word">账户</p>
         </div>
-         <div class="tool-list-order">
-          <p class="icon">&#xe61f;</p>
-          <router-link to="/ticket">
+          <div class="tool-list-order">
+            <p class="icon">&#xe60e;</p>
             <p class="word">订单</p>
-          </router-link>
-        </div>
+          </div>
         <div class="tool-list-phone">
           <p class="icon">&#xe613;</p>
           <p class="word">电话</p>

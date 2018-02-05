@@ -1,13 +1,15 @@
 <template>
   <div>
     <div id="search" class="iconfont">
-      <div class="place">
-        <p class="place-icon icon">&#xe612;</p>
-        <p class="place-add">北京市</p>
-        <p class="place-tra icon">&#xe602;</p>
-        <p class="place-near-icon icon">&#xe604;</p>
-        <p class="place-near">附近</p>
-      </div>
+      <router-link to="/CityList">
+        <div class="place">
+          <p class="place-icon icon">&#xe612;</p>
+          <p class="place-add">北京市</p>
+          <p class="place-tra icon">&#xe62d;</p>
+          <p class="place-near-icon icon">&#xe604;</p>
+          <p class="place-near">附近</p>
+        </div>
+      </router-link>
       <index-date></index-date>
       <index-area></index-area>
       <index-btn></index-btn>

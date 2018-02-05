@@ -8,7 +8,7 @@
           <p>
             <span>共有<i class="word">{{item.citynub}}</i>家酒店</span>
           </p>
-          <i class="icon">&#xe602;</i>
+          <i class="icon">&#xe62d;</i>
         </div>
       </li>
       <li class="place-word">©2009-2018 艺龙网信息技术（北京）有限公司</li>
@@ -38,6 +38,7 @@
           overflow: hidden
           padding: 0 24px
           position: relative
+          text-align: left
           h3
             font-size: 22px
             color: #fff

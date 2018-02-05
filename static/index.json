@@ -1,7 +1,7 @@
 {
   "ret": true,
   "data": {
-    "name": "swiper1",
+    "name": "swiper",
      "slider": [{
       "id": "001",
       "link": "",
@@ -14,6 +14,114 @@
       "id": "003",
       "link": "",
       "imgUrl": "//m.elongstatic.com/promotions/wireless/uploadImages/images151186038730563.jpg"
-    } ]
+    }]
+  },
+  "list": {
+    "name": "icon-list",
+    "icon": [{
+      "id": "001",
+      "iconName": "&#xe6ed;",
+      "fontName": "机票"
+    }, {
+      "id": "002",
+      "iconName": "&#xe610;",
+      "fontName": "附近"
+    }, {
+      "id": "003",
+      "iconName": "&#xe654;",
+      "fontName": "国际"
+    }, {
+      "id": "004",
+      "iconName": "&#xe600;",
+      "fontName": "火车票"
+    }, {
+      "id": "005",
+      "iconName": "&#xe60a;",
+      "fontName": "汽车票"
+    }, {
+      "id": "006",
+      "iconName": "&#xe624;",
+      "fontName": "民宿"
+    }, {
+      "id": "007",
+      "iconName": "&#xe651;",
+      "fontName": "钟点房"
+    }, {
+      "id": "008",
+      "iconName": "&#xe607;",
+      "fontName": "攻略"
+    }, {
+      "id": "009",
+      "iconName": "&#xe63c;",
+      "fontName": "门票"
+    }, {
+      "id": "010",
+      "iconName": "&#xe62b;",
+      "fontName": "特惠"
+    }]
+  },
+  "city": {
+    "name": "cityhotel",
+    "cityImg": [{
+      "id": "01",
+      "cityname": "北京",
+      "cityimg": "//m.elongstatic.com/static/webapp/hotel/img/search/citys.jpg",
+      "citynub": "6410",
+      "position": "0 0"
+    }, {
+      "id": "02",
+      "cityname": "上海",
+      "cityimg": "//m.elongstatic.com/static/webapp/hotel/img/search/citys.jpg",
+      "citynub": "4120",
+      "position": "0 -75"
+    }, {
+      "id": "03",
+      "cityname": "广州",
+      "cityimg": "//m.elongstatic.com/static/webapp/hotel/img/search/citys.jpg",
+      "citynub": "4271",
+      "position": "0 -150"
+    }, {
+      "id": "04",
+      "cityname": "深圳",
+      "cityimg": "//m.elongstatic.com/static/webapp/hotel/img/search/citys.jpg",
+      "citynub": "3232",
+      "position": "0 -225"
+    }, {
+      "id": "05",
+      "cityname": "香港",
+      "cityimg": "//m.elongstatic.com/static/webapp/hotel/img/search/citys.jpg",
+      "citynub": "574",
+      "position": "0 -300"
+    }, {
+      "id": "06",
+      "cityname": "杭州",
+      "cityimg": "//m.elongstatic.com/static/webapp/hotel/img/search/citys.jpg",
+      "citynub": "4531",
+      "position": "0 -375"
+    }, {
+      "id": "07",
+      "cityname": "苏州",
+      "cityimg": "//m.elongstatic.com/static/webapp/hotel/img/search/citys.jpg",
+      "citynub": "1641",
+      "position": "0 -450"
+    }, {
+      "id": "08",
+      "cityname": "宁波",
+      "cityimg": "//m.elongstatic.com/static/webapp/hotel/img/search/citys.jpg",
+      "citynub": "7201",
+      "position": "0 -525"
+    }, {
+      "id": "09",
+      "cityname": "南京",
+      "cityimg": "//m.elongstatic.com/static/webapp/hotel/img/search/citys.jpg",
+      "citynub": "1423",
+      "position": "0 -600"
+    }, {
+      "id": "10",
+      "cityname": "三亚",
+      "cityimg": "//m.elongstatic.com/static/webapp/hotel/img/search/citys.jpg",
+      "citynub": "4190",
+      "position": "0 -675"
+    }]
   }
 }

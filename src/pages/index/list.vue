@@ -2,8 +2,10 @@
   <div>
     <div id="list" >
       <div class="icon-list" v-for="item in list">
-        <p class="icon-name iconfont" v-html='item.iconName'></p>
-        <p class="font-name">{{item.fontName}}</p>
+        <router-link to="/ticket">
+          <p class="icon-name iconfont" v-html='item.iconName'></p>
+          <p class="font-name">{{item.fontName}}</p>
+        </router-link>
       </div>
     </div>
     <div class="border"></div>

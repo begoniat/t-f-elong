@@ -1,7 +1,7 @@
 <template>
   <div id="btn">
     <div class="btn">
-      <p class="icon-search">&#xe6cf;</p>
+      <p class="icon-search">&#xe60d;</p>
       <span class="search">搜索</span>
     </div>
   </div>
